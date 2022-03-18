@@ -1,17 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+// Vendor CSS Files
+import "./assets/vendor/aos/aos.css";
+import "./assets/vendor/bootstrap/css/bootstrap.min.css";
+import "./assets/vendor/glightbox/css/glightbox.min.css";
+import "./assets/vendor/remixicon/remixicon.css";
+import "./assets/vendor/swiper/swiper-bundle.min.css";
+// Template Main CSS Files
+import "./assets/css/style.css";
+// Components
+import Navbar from "./components/navbar/Navbar";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

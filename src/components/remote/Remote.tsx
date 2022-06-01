@@ -1,4 +1,5 @@
 import React from "react";
+import img from "./../../assets/img/remote.png";
 
 function Remote() {
   return (
@@ -10,7 +11,7 @@ function Remote() {
 
         <div className="row">
           <div className="col-lg-6">
-            <img src="assets/img/remote.png" className="img-fluid" alt="" />
+            <img src={img} className="img-fluid" alt="" />
           </div>
 
           <div className="col-lg-6 mt-5 mt-lg-0 d-flex">

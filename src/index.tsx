@@ -3,9 +3,10 @@ import ReactDOM from "react-dom";
 // Vendor CSS Files
 // import "./assets/vendor/aos/aos.css";
 import "./assets/vendor/bootstrap/css/bootstrap.min.css";
-// import "./assets/vendor/glightbox/css/glightbox.min.css";
-// import "./assets/vendor/remixicon/remixicon.css";
-// import "./assets/vendor/swiper/swiper-bundle.min.css";
+import "./assets/vendor/bootstrap-icons/bootstrap-icons.css";
+import "./assets/vendor/glightbox/css/glightbox.min.css";
+import "./assets/vendor/remixicon/remixicon.css";
+import "./assets/vendor/swiper/swiper-bundle.min.css";
 // Template Main CSS Files
 import "./assets/css/style.css";
 // Vendo JS Files
@@ -21,6 +22,7 @@ import "./assets/css/style.css";
 // // Components
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
+import About from "./components/about/About";
 import Remote from "./components/remote/Remote";
 
 ReactDOM.render(
@@ -28,7 +30,7 @@ ReactDOM.render(
     <Navbar />
     <main>
       <Hero />
-
+      <About />
       <Remote />
     </main>
   </React.StrictMode>,

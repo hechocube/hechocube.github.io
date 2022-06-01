@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import img from "./../../assets/img/about_us.png";
 
 function About() {
   return (
@@ -13,13 +14,13 @@ function About() {
           >
             <div className="content">
               <h3>Who We Are</h3>
-              <styledH2>
+              <h2 style={{ textAlign: "justify" }}>
                 Developers and designers that craft quality and awesome
                 IT-related services across various platforms to our clients’
                 budget with our Filipino engineer’s various skillsets – web and
                 mobile development, UI/UX design, graphic design, image and
                 video editing, website maintenance.
-              </styledH2>
+              </h2>
             </div>
           </div>
           <div
@@ -27,7 +28,7 @@ function About() {
             data-aos="zoom-out"
             data-aos-delay="200"
           >
-            <img src="assets/img/about_us.png" className="img-fluid" alt="" />
+            <img src={img} className="img-fluid" alt="" />
           </div>
         </div>
       </div>
